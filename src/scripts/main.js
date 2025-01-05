@@ -8,7 +8,7 @@ thumbs.addEventListener('click', function (e) {
 
   if (link) {
     e.preventDefault();
+    largeImg.src = link.href;
   }
 
-  largeImg.src = link.href;
 });
